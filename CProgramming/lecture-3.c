@@ -40,7 +40,58 @@ long double: %Lf, LDBL_MIN, LDBL_MAX
 %e, %Le -> scientific notations
 */
 
+#include<stdio.h>
+#include<float.h>
+
+int main()
+{
+   float x;
+   printf("Enter a float value: \n");
+   scanf("%f", &x);
+   printf("Value of x is %.2f\n", x);
+   printf("Minimum range of float is %e\n", FLT_MIN);
+   printf("Maximum range of float is %e\n", FLT_MAX);
+
+   printf("Minimum range of double is %le\n", DBL_MIN);
+   printf("Maximum range of double is %le\n", DBL_MAX);
+
+   return 0;
+}
+
+
+// int main()
+// {
+//    double x;
+//    printf("Enter a double value: \n");
+//    scanf("%lf", &x);
+//    printf("Value of x is %lf\n", x);
+   // printf("Minimum range of float is %le\n", DBL_MIN);
+   // printf("Maximum range of float is %le\n", DBL_MAX);
+//    return 0;
+// }
+
 
 /*
 Mathematical Operations
++ - * /
+a+b a-b a/b
+
+
 */
+
+// int main()
+// {
+//    float first_num;
+//    float second_num;
+
+//    printf("Enter first number:\n");
+//    scanf("%f", &first_num);
+//    printf("Enter second number: (not zero) \n");
+//    scanf("%f", &second_num);
+
+//    printf("Addition: %f\n", first_num + second_num);
+//    printf("Subtraction: %f\n", first_num - second_num);
+//    printf("Multiplication: %f\n", first_num * second_num);
+//    printf("Division: %f\n", first_num / second_num);
+//    return 0;
+// }
