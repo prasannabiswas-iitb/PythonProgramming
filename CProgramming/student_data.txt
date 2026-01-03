@@ -1,0 +1,4 @@
+hemanshi = 90 and atharv = 92
+hemanshi = 98 and atharv = 91Swaleha = 94swaleha = 99
+sam = 85
+
